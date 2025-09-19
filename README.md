@@ -1,10 +1,10 @@
-# Anonymous-Attestation
+# Anonymous Attestation
 
 A privacy-preserving attestation system built on the Stacks blockchain using Clarity smart contracts, enabling users to prove attributes without revealing sensitive personal information.
 
 ## Overview
 
-u-eunice implements a selective disclosure attestation system that allows users to obtain privacy-preserving credentials and selectively disclose attributes on-chain without revealing raw data. The system uses a hybrid approach combining on-chain credential registries with off-chain proof generation.
+This system implements a selective disclosure attestation platform that allows users to obtain privacy-preserving credentials and selectively disclose attributes on-chain without revealing raw data. The system uses a hybrid approach combining on-chain credential registries with off-chain proof generation.
 
 ## Architecture
 
@@ -77,8 +77,8 @@ u-eunice implements a selective disclosure attestation system that allows users 
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/u-eunice
-cd u-eunice
+git clone https://github.com/your-org/anonymous-attestation
+cd anonymous-attestation
 
 # Install dependencies
 clarinet requirements
@@ -93,7 +93,7 @@ clarinet deploy --testnet
 ### Project Structure
 
 ```
-u-eunice/
+anonymous-attestation/
 ├── contracts/
 │   ├── selective-disclosure-registry.clar    # Main contract
 │   └── traits/
@@ -251,10 +251,10 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Support & Community
 
-- **Documentation**: [docs.u-eunice.io](https://docs.u-eunice.io)
-- **Discord**: [discord.gg/u-eunice](https://discord.gg/u-eunice)
+- **Documentation**: [docs.anonymous-attestation.io](https://docs.anonymous-attestation.io)
+- **Discord**: [discord.gg/anonymous-attestation](https://discord.gg/anonymous-attestation)
 - **GitHub Issues**: Report bugs and request features
-- **Twitter**: [@u_eunice_proto](https://twitter.com/u_eunice_proto)
+- **Twitter**: [@anon_attestation](https://twitter.com/anon_attestation)
 
 ---
 
